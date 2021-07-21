@@ -1,0 +1,23 @@
+{
+    "name": "lucas/cep",
+    "description": "Busca de CEP online",
+    "type": "libary",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lucas\\Cep\\": "src/"
+        },
+        "psr-0": {
+            "Search":"src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Emmanuel",
+            "email": "lucas1822@outlook.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    }
+}
